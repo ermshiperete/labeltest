@@ -1,5 +1,7 @@
 name: "Description based Labeler"
-on: pull_request_target
+on:
+  pull_request_target:
+    types: [opened, edited]
 
 jobs:
   labeler:
