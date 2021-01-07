@@ -5,6 +5,7 @@
 #
 
 feat: [ 'feat(*', 'feat:*' ]
+feature: ['feature/*', 'feat/*']
 fix: ['fix(*', 'fix:*' ]
 chore: [ 'chore(*', 'chore:*' ]
 #    "change",
