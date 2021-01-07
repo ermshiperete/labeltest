@@ -1,0 +1,24 @@
+#
+# This file adds labels based on the scopes in resources/scopes/commit-types.json.
+# Currently it must be manually kept up to date. Not all labels are added, only
+# common ones. The others are commented out.
+#
+
+feat: [ 'feat(*', 'feat:*' ]
+fix: ['fix(*', 'fix:*' ]
+chore: [ 'chore(*', 'chore:*' ]
+#    "change",
+docs: [ 'docs(*', 'docs:*' ]
+#    "style",
+refactor: [ 'refactor(*', 'refactor:*' ]
+#    "test",
+auto: auto:*'
+
+'android/': '*(android):*'
+'common/': '*(common*'
+'developer/': '*(developer):*'
+'ios/': '*(ios):*'
+'linux/': '*(linux):*'
+'mac/': '*(mac):*'
+'web/': '*(web):*'
+'windows/': '*(windows):*'
