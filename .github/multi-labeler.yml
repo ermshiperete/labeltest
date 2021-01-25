@@ -1,0 +1,52 @@
+version: v1
+
+labels:
+  - label: 'feat'
+    matcher:
+      title: '^feat(\(|:)'
+  - label: 'fix'
+    matcher:
+      title: '^fix(\(|:)'
+  - label: 'chore'
+    matcher:
+      title: '^chore(\(|:)'
+  #    "change",
+  - label: 'docs'
+    matcher:
+      title: '^docs(\(|:)'
+  #    "style",
+  - label: 'refactor'
+    matcher:
+      title: '^refactor(\(|:)'
+  #    "test",
+  - label: 'auto'
+    matcher:
+      title: '^auto(\(|:)'
+  # Below are the scopes that we look for in the PR title
+  - label: 'android/'
+    matcher:
+      title: '\(.*android.*\):'
+  - label: 'common/'
+    matcher:
+      title: '\(.*common.*\):'
+  - label: 'developer/'
+    matcher:
+      title: '\(.*developer.*\):'
+  - label: 'ios/'
+    matcher:
+      title: '\(.*ios.*\):'
+  - label: 'linux/'
+    matcher:
+      title: '\(.*linux.*\):'
+  - label: 'mac/'
+    matcher:
+      title: '\(.*mac.*\):'
+  - label: 'oem/'
+    matcher:
+      title: '\(.*oem.*\):'
+  - label: 'web/'
+    matcher:
+      title: '\(.*web.*\):'
+  - label: 'windows/'
+    matcher:
+      title: '\(.*windows.*\):'

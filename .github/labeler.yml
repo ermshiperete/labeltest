@@ -85,39 +85,3 @@ windows/config/: windows/src/desktop/**
 windows/engine/: windows/src/engine/**
 # windows/resources/
 # windows/samples/
-
-labels:
-  feat:
-    - '^feat(\(|:)'
-  fix:
-    - '^fix(\(|:)'
-  chore:
-    - '^chore(\(|:)'
-  #    "change",
-  docs:
-    - '^docs(\(|:)'
-  #    "style",
-  refactor:
-    - '^refactor(\(|:)'
-  #    "test",
-  auto:
-    - '^auto(\(|:)'
-  # Below are the scopes that we look for in the PR title
-  'android/':
-    - '\(.*android.*\):'
-  'common/':
-    - '\(.*common.*\):'
-  'developer/':
-    - '\(.*developer.*\):'
-  'ios/':
-    - '\(.*ios.*\):'
-  'linux/':
-    - '\(.*linux.*\):'
-  'mac/':
-    - '\(.*mac.*\):'
-  'oem/':
-    - '\(.*oem.*\):'
-  'web/':
-    - '\(.*web.*\):'
-  'windows/':
-    - '\(.*windows.*\):'
